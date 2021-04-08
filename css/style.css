@@ -1,0 +1,76 @@
+/*MAIN NAV*/
+.navbar{
+  background: #333;
+  position: sticky;
+  top: 0;
+  z-index:1;
+}
+.navbar ul li a:link{
+  color:rgba(255, 255, 255, 0.5);
+}
+.navbar ul li a:hover{
+  text-decoration: none;
+}
+/*CAROUSEL SECTION*/
+.carousel-item{
+  height: 450px;
+}
+
+/*GEARS/DATA/MONEY*/
+.icons{
+  font-size: 45px;
+}
+/*READY SECTION*/
+#ready{
+  background: linear-gradient(rgba(51, 51, 51, .7),rgba(51, 51, 51, 0.7)),url('../img/bg1.jpeg');
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*VIDEO SECTION*/
+#video-section{
+  background: linear-gradient(rgba(51, 51, 51, 0.7),rgba(51, 51, 51, 0.7)),url('../img/people.jpeg');
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#video-section .fas{
+  font-size: 40px;
+}
+/*PHOTO GALLERY*/
+#photo-gallery img{
+  min-height: 250px;
+}
+/*FOOTER SECTION*/
+footer{
+  border-top: 1px solid #d4d4d4
+
+}
+
+/*ABOUT US PAGE*/
+#page-header{
+  background: url('../img/image1.jpeg');
+  background-position: top center;
+  background-size: cover;
+}
+#what-we-do img.img-fluid{
+  width: 350px;
+  height: 350px;
+}
+#what-we-do i.fas{
+   font-size: 50px;
+   padding: 5px 0;
+
+}
+/*CONTACT SECTION*/
+#contact-heading{
+  background: url('../img/contact.jpeg');
+}
+/*SERVICE SECTION*/
+#service-heading{
+  background: url('../img/contact.jpeg');
+}
+/*BLOG SECTION*/
+#blog-heading{
+  background: url('../img/contact.jpeg');
+}
